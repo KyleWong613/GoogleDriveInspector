@@ -1,8 +1,9 @@
 from __future__ import print_function
 import datetime
-from googleapiclient.discovery import build
+# from googleapiclient.discovery import build
 from httplib2 import Http
-from oauth2client import file, client, tools
+
+# from oauth2client import file, client, tools
 import operator
 # If modifying these scopes, delete the file token.json.
 SCOPES = 'https://www.googleapis.com/auth/activity'
